@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# Set Git Globals
+git config --global user.email ""
+git config --global user.name ""
+
 # Install VSCode
 sudo apt update
 sudo apt install curl gpg software-properties-common apt-transport-https

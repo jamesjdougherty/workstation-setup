@@ -34,5 +34,8 @@ docker
 # Install RustScan v1.10.0
 docker pull rustscan/rustscan.1.10.0
 
+# Install Gobuster
+sudo apt-get install gobuster
+
 # Add aliases to env variables
 #alias rustscan='sudo docker run -it --rm --name rustscan rustscan/rustscan:1.10.0'

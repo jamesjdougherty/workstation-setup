@@ -64,4 +64,3 @@ nnoremap <leader>gd :YcmCompleter GoTo<CR>
 nnoremap <leader>gf :YcmCompleter FixIt<CR>
 
 ```
-

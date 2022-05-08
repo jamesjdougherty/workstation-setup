@@ -1,4 +1,5 @@
-###NVIM CONFIG###
+### NVIM CONFIG ###
+
 ```
 syntax on
 

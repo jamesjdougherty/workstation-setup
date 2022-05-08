@@ -1,5 +1,4 @@
 ###NVIM CONFIG###
-
 ```
 syntax on
 
@@ -18,10 +17,10 @@ set noerrorbells
 set mouse=a
 set incsearch
 
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 
+Plug 'morhetz/gruvbox'
 Plug 'projekt0n/github-nvim-theme'
-Plug 'sainnhe/gruvbox-material'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
@@ -29,16 +28,18 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'neovim/nvim-lspconfig'
+Plug 'williamboman/nvim-lsp-installer'
 Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
 lua require('jdough')
 
+colorscheme gruvbox
 set background=dark
-colorscheme github_dimmed
-let g:airline_theme='night_owl'
-
+hi Normal guibg=NONE ctermbg=NONE
+"let g:airline_theme='night_owl'
+ 
 let mapleader = " "
 
 nnoremap <leader>h :wincmd h<CR>

@@ -4,8 +4,10 @@
 [alias]
     amend = commit --amend
     namend = commit --amend --no-edit
+    fwl = push --force-with-lease
     fp = fetch -p
     st = status
+    cm = commit -m
     di = diff
     co = checkout
     ci = commit

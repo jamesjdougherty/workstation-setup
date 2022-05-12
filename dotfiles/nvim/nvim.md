@@ -41,6 +41,7 @@ Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'L3MON4D3/LuaSnip'
 
+Plug 'jremmen/vim-ripgrep'
 Plug 'tpope/vim-fugitive'
 
 call plug#end()
@@ -58,6 +59,7 @@ nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
 nnoremap <leader>l :wincmd l<CR>
+nnoremap <leader>r :Rg<CR>
 nnoremap <leader>pv :wincmd V<bar> :Ex<bar> :vertical resize 50<CR>
 nnoremap <leader>vs :vsplit<CR>
 nnoremap <silent> <leader>= :vertical resize +25<CR>

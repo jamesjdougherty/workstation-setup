@@ -62,6 +62,7 @@ nnoremap <leader>l :wincmd l<CR>
 nnoremap <leader>r :Rg<CR>
 nnoremap <leader>pv :wincmd V<bar> :Ex<bar> :vertical resize 50<CR>
 nnoremap <leader>vs :vsplit<CR>
+nnoremap <leader><leader>x :source %<CR>
 nnoremap <silent> <leader>= :vertical resize +25<CR>
 nnoremap <silent> <leader>- :vertical resize -25<CR>
 
